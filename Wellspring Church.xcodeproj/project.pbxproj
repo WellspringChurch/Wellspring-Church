@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		998982F120FE29F80002772B /* VideoViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998982F020FE29F80002772B /* VideoViewContoller.swift */; };
+		998982F320FE2A060002772B /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998982F220FE2A060002772B /* AudioViewController.swift */; };
 		99C5548A20FCDBF5005F11BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C5548920FCDBF5005F11BA /* AppDelegate.swift */; };
 		99C5548C20FCDBF5005F11BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C5548B20FCDBF5005F11BA /* ViewController.swift */; };
 		99C5548F20FCDBF5005F11BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C5548D20FCDBF5005F11BA /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		99C5549420FCDBFB005F11BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C5549220FCDBFB005F11BA /* LaunchScreen.storyboard */; };
 		99C5549F20FCDBFC005F11BA /* Wellspring_ChurchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C5549E20FCDBFC005F11BA /* Wellspring_ChurchTests.swift */; };
 		99C554AA20FCDBFC005F11BA /* Wellspring_ChurchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C554A920FCDBFC005F11BA /* Wellspring_ChurchUITests.swift */; };
+		99C554B820FCE22A005F11BA /* FindUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C554B720FCE229005F11BA /* FindUsViewController.swift */; };
+		99C554BA20FCF1AB005F11BA /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C554B920FCF1AB005F11BA /* ConnectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		998982F020FE29F80002772B /* VideoViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewContoller.swift; sourceTree = "<group>"; };
+		998982F220FE2A060002772B /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 		99C5548620FCDBF5005F11BA /* Wellspring Church.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wellspring Church.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C5548920FCDBF5005F11BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C5548B20FCDBF5005F11BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		99C554A520FCDBFC005F11BA /* Wellspring ChurchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wellspring ChurchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C554A920FCDBFC005F11BA /* Wellspring_ChurchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wellspring_ChurchUITests.swift; sourceTree = "<group>"; };
 		99C554AB20FCDBFC005F11BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C554B720FCE229005F11BA /* FindUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindUsViewController.swift; sourceTree = "<group>"; };
+		99C554B920FCF1AB005F11BA /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		99C5547D20FCDBF5005F11BA = {
 			isa = PBXGroup;
 			children = (
+				998982F220FE2A060002772B /* AudioViewController.swift */,
 				99C5548820FCDBF5005F11BA /* Wellspring Church */,
 				99C5549D20FCDBFC005F11BA /* Wellspring ChurchTests */,
 				99C554A820FCDBFC005F11BA /* Wellspring ChurchUITests */,
@@ -100,9 +109,12 @@
 				99C5548920FCDBF5005F11BA /* AppDelegate.swift */,
 				99C5548B20FCDBF5005F11BA /* ViewController.swift */,
 				99C5548D20FCDBF5005F11BA /* Main.storyboard */,
+				99C554B720FCE229005F11BA /* FindUsViewController.swift */,
 				99C5549020FCDBFB005F11BA /* Assets.xcassets */,
 				99C5549220FCDBFB005F11BA /* LaunchScreen.storyboard */,
 				99C5549520FCDBFB005F11BA /* Info.plist */,
+				99C554B920FCF1AB005F11BA /* ConnectViewController.swift */,
+				998982F020FE29F80002772B /* VideoViewContoller.swift */,
 			);
 			path = "Wellspring Church";
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C5548C20FCDBF5005F11BA /* ViewController.swift in Sources */,
+				998982F120FE29F80002772B /* VideoViewContoller.swift in Sources */,
 				99C5548A20FCDBF5005F11BA /* AppDelegate.swift in Sources */,
+				99C554B820FCE22A005F11BA /* FindUsViewController.swift in Sources */,
+				99C554BA20FCF1AB005F11BA /* ConnectViewController.swift in Sources */,
+				998982F320FE2A060002772B /* AudioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
